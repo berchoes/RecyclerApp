@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:outlineSpotShadowColor="@color/colorSecondary"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/colorPrimary"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp"
+    android:id="@+id/planes_row"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:ignore="RedundantNamespace">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/planeShort"
+            tools:text = "Berk"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondary"
+            android:padding="15dp"
+            />
+        <TextView
+            android:id="@+id/planeLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="13sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="73dp"
+            tools:text="5512599459"
+            android:paddingStart="25dp" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
